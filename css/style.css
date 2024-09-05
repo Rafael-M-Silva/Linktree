@@ -7,6 +7,11 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 100vh;
     background-color: #ECFFCA;
 }
 
@@ -33,6 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    align-items: center;
 }
 
 .btns a {
@@ -46,4 +52,8 @@ body {
     background-color: #7CEFB9;
     color: black;
     text-decoration: none; /* tirar a decoração da tag <a> */
+}
+
+.btns a:hover {
+ background-color: #27EF92;
 }
